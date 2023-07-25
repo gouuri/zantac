@@ -1,0 +1,15 @@
+# Terraform files and directories
+.terraform/
+terraform.tfstate*
+*.tfvars
+*.tfstate.backup
+.terraform.lock.hcl
+*.tfplan
+.terraformrc
+.terraformrc.*
+
+# Logs and Temporary Files
+*.log
+*.out
+*.tmp
+*.tmp.*
