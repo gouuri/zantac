@@ -68,13 +68,13 @@ module "jumpbox" {
   resource_group_name = module.rg.resource_group_name
   tags = var.tags 
   admin_username ="rootadmin"
-  admin_password = "ResetG0wri1987"
+  #admin_password = "XXXX"
   subnet_id = module.vnet.subnet_id
 }
 
 module "iam"{
   source ="./iam"
   displayname = "Web Powerusers"
-  password = "G0dthankyou"
+  #password = "XXXXX"
   emailid = "webpwrusers@gouurishankarLIVE.onmicrosoft.com"
 }
